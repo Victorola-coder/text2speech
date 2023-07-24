@@ -5,11 +5,100 @@
     <link rel="icon" type="image/svg+xml" href="/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./dist/output.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta
+      name="description"
+      content="The app allows users to input text, and it converts the text into speech, providing an audio output of the input text."
+    />
+    <meta name="keywords" content="text, speech, web speech API" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Text2Speech</title>
   </head>
   <body>
     <div id="app">
-      <h2 class="underline bg-red-400">hello</h2>
+      <div
+        class="mx-auto px-[30px] flex flex-col items-center justify-center h-screen"
+      >
+        <div class="max-w-[400px]">
+          <div class="header">
+            <h1
+              class="text- text-center text-[40px] mb-4 lg:text-[50px] font-semibold mt-2"
+            >
+              Text<span class="text-blue-500">2</span>Speech
+            </h1>
+          </div>
+
+          <form>
+            <textarea
+              class="w-[350px] md:w-full p-3 pb-0 mb-3 text-black outline-none"
+              name=""
+              id="text-input"
+              placeholder="type anything you wish to hear..."
+            ></textarea>
+            <div class="flex flex-col gap-6">
+              <div class="flex flex-col">
+                <div class="flex justify-between">
+                  <label for="rate">Rate (speed)</label>
+                  <p
+                    id="rate-value"
+                    class="p-[4px] text-[12px] rounded-full bg-blue-500"
+                  >
+                    1
+                  </p>
+                </div>
+                <input
+                  type="range"
+                  value="1"
+                  max="2"
+                  min="0.5"
+                  step="0.1"
+                  id="rate"
+                />
+              </div>
+              <div class="flex flex-col">
+                <div class="flex justify-between">
+                  <label for="rate">Pitch</label>
+                  <p
+                    id="pitch-value"
+                    class="p-[4px] text-[12px] rounded-full bg-blue-500"
+                  >
+                    1
+                  </p>
+                </div>
+                <input
+                  type="range"
+                  value="1"
+                  max="2"
+                  min="0.5"
+                  step="0.1"
+                  id="pitch"
+                />
+              </div>
+              <div>
+                <select
+                  class="w-full p-3 text-black outline-none"
+                  id="voice-select"
+                >
+                </select>
+              </div>
+              <div class="mx-auto">
+                <button
+                  type="submit"
+                  class="px-3 py-3 text-center text-black bg-white rounded"
+                >
+                  speak, let me hear
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
     <script type="module" src="/main.js"></script>
   </body>

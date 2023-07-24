@@ -12,7 +12,7 @@ This is a simple Text-to-Speech (TTS) app built using HTML, TailwindCSS and Java
 
 ## Demo
 
-You can try out the live demo of the app  [here](https:text2speech.vercel.app).
+You can try out the live demo of the app  [here](https://text2speech.vercel.app).
 
 ## Table of Contents
 
