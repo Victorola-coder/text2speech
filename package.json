@@ -1,0 +1,36 @@
+{
+  "name": "text2speech",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.0"
+  },
+  "description": "text-to-speech app using the web speech API",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victorola-coder/text2speech.git"
+  },
+  "keywords": [
+    "text-to-speech",
+    "text",
+    "speech",
+    "API",
+    "Web-speech"
+  ],
+  "author": "VickyJay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Victorola-coder/text2speech/issues"
+  },
+  "homepage": "https://github.com/Victorola-coder/text2speech#readme"
+}
