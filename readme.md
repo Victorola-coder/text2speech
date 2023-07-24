@@ -1,6 +1,6 @@
 # Text-to-Speech App
 
-![Text-to-Speech App Screenshot](logo.png)
+![Text-to-Speech App Screenshot](./src/img/project.png)
 
 This is a simple Text-to-Speech (TTS) app built using HTML, TailwindCSS and JavaScript and the Web Speech API. The app allows users to input text, and it converts the text into speech, providing an audio output of the input text.
 
