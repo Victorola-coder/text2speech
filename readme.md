@@ -115,4 +115,4 @@ If you find any bugs or have suggestions for improvements, feel free to open an 
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for your own purposes.
 
 # Author
- follow me [VickyJay] (https://www.twitter.com/heyvickyjay)
+ follow me [VickyJay](https://www.twitter.com/heyvickyjay)
