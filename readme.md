@@ -1,6 +1,6 @@
 # Text-to-Speech App
 
-![Text-to-Speech App Screenshot](screenshot.png)
+![Text-to-Speech App Screenshot](logo.png)
 
 This is a simple Text-to-Speech (TTS) app built using HTML, TailwindCSS and JavaScript and the Web Speech API. The app allows users to input text, and it converts the text into speech, providing an audio output of the input text.
 
@@ -41,20 +41,25 @@ To run the app locally, you need to have the following installed on your machine
 ### Installation
 
 1. Clone this repository:
+
+
 ```bash
-git clone https://github.com/Victorola-coder/text2speech.git ```
+git clone https://github.com/Victorola-coder/text2speech.git
+```
 
 
 2. Navigate to the project directory:
 
 ```bash
-cd text2speech```
+cd text2speech
+```
 
 
 3. Install the dependencies:
 
 ```bash
-npm install```
+npm install
+```
 
 
 ### Running the App
@@ -62,11 +67,13 @@ npm install```
 Start the development server:
 
 ```bash
-npm run dev ```
+npm run dev 
+```
 
 Create a new command line and watch the tailwindcss
 ```bash
-npm run watch```
+npm run watch
+```
 
 
 Open your web browser and visit `http://localhost:5173` to access the app.
