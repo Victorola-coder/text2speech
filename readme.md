@@ -42,7 +42,7 @@ To run the app locally, you need to have the following installed on your machine
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/Victorola-coder/text2speech.git```
+git clone https://github.com/Victorola-coder/text2speech.git ```
 
 
 2. Navigate to the project directory:
@@ -108,4 +108,4 @@ If you find any bugs or have suggestions for improvements, feel free to open an 
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for your own purposes.
 
 # Author
- folow me [VickyJay] (https://www.twitter.com/heyvickyjay)
+ follow me [VickyJay] (https://www.twitter.com/heyvickyjay)
