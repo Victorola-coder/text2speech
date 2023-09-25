@@ -84,13 +84,12 @@
                 <select
                   class="w-full p-3 text-black outline-none"
                   id="voice-select"
-                >
-                </select>
+                ></select>
               </div>
               <div class="mx-auto">
                 <button
                   type="submit"
-                  class="px-3 py-3 text-center text-black bg-white rounded"
+                  class="px-3 py-3 text-center text-black transition-all duration-300 bg-white select-none active:scale-105 hover:bg-red-500"
                 >
                   speak, let me hear
                 </button>
@@ -98,7 +97,9 @@
             </div>
           </form>
         </div>
-        <p class="text-center p-2 bg-red-400 text-[10px] mt-[70px] md:text-base">
+        <p
+          class="text-center p-2 bg-red-400 text-[10px] mt-[70px] md:text-base transition-all duration-300 scale-95"
+        >
           This is just a test on web speech API, it doesn't support all
           browsers!
         </p>
